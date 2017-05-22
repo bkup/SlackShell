@@ -43,7 +43,7 @@ Start-Shell -Token "xoxp-175828824580-175707545555-176600001223-826315a84e533c48
 Closes the shell and connection.
 
 #### cd \<path>
-Changes the directory of the main process. Relative paths can be used (e.g. cd ..)
+Changes the directory in the contect of the main process. Relative paths can be used (e.g. cd ..)
 
 #### sleep \<int>
 Changes the sleep time.
