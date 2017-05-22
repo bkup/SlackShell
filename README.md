@@ -50,3 +50,5 @@ Changes the sleep time.
 
 ## Acknowledgments
 Inspiration for working with the Slack API in PowerShell is credited to Warren Frame. His repo was a great resource to get started: https://github.com/RamblingCookieMonster/PSSlack
+
+Special thanks to @thesubtlety for porting over to POSHv2.
