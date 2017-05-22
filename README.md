@@ -3,7 +3,7 @@
 ## Description
 This PowerShell module includes various functions that utilize the Slack API to create a command and control channel. The main function, Start-Shell, will connect to a user-specified Slack channel and authenticate using a supplied API authentication token for a given Slack team and user.  Any command typed into the channel will then be executed, in PowerShell, on the host.
 
-Powershell v2 should use the SlackShell-Poshv2.psm1
+The SlackShell project requires PowerShell v3 and above due to the use of Invoke-RestMethod for API calls.  Future development will continue to use current PowerShell cmdlets and functions. However, a port for Powershell v2 was created in SlackShell-Poshv2.psm1.
 
 ## Functions
 #### Start-Shell
@@ -51,4 +51,4 @@ Changes the sleep time.
 ## Acknowledgments
 Inspiration for working with the Slack API in PowerShell is credited to Warren Frame. His repo was a great resource to get started: https://github.com/RamblingCookieMonster/PSSlack
 
-Special thanks to @thesubtlety for porting over to POSHv2.
+Special thanks to @thesubtlety for porting over to POSHv2 and added enhancements.
