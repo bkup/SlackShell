@@ -1,4 +1,6 @@
-﻿<#
+#requires -version 3
+
+<#
 Author: Brent Kennedy; @bk_up
 First Published: 5/1/17
 Last Updated: 5/22/17
