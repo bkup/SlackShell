@@ -1,12 +1,12 @@
 # SlackShell
 
 ## Description
-V1.0
+###v1.0
 This PowerShell module includes various functions that utilize the Slack API to create a command and control channel. The main function, Start-Shell, will connect to a user-specified Slack channel and authenticate using a supplied API authentication token for a given Slack team and user.  Any command typed into the channel will then be executed, in PowerShell, on the host. 
 
 The SlackShell project requires PowerShell v3 and above due to the use of Invoke-RestMethod for API calls.  Future development will continue to use current PowerShell cmdlets and functions. However, a port for Powershell v2 was created in SlackShell-Poshv2.psm1.
 
-V1.1
+###v1.1
 Additional PS scripts can be imported into the running session by first uploading them to the Slack channel. The import feature will download the files, which are hosted at https://slack-files.com by default, and import them in memory. The files do not touch disk. The download feature can be used to save a local copy of any file to disk. 
 
 Local files can be uploaded to the Slack channel through the API using the upload feature.
