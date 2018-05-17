@@ -37,7 +37,7 @@ Uses a Slack API call to return a list of files currently hosted in the Slack ch
 
 #### Import-File
 Refreshes the file list then downloads the specified file into memory, creates a new module, and then imports that module. Commands specific to that module can then be entered directly into the Slack channel. The file downloaded does not touch disk.
-*This function should be considered in Beta while addtional testing is occuring. Some modules behave erratically*
+*This function should be considered in Beta while additional testing is occuring. Some modules behave erratically*
 
 #### Receive-File
 Refreses the file list then downloads the specified file to disk. An additional storage path can be included, defaults to the current location.
@@ -75,7 +75,7 @@ Listed available files in the associated Slack channel.
 #### import \<filename>
 Imports specified file. File must be shared with the Slack channel that is being used.
 
-#### download \<filename> \[<path>]
+#### download \<filename> \<path>
 Downloads the specified file to disk and stores it at optional path paramter location. File must be shared with the Slack channel that is being used.
 
 #### upload \<local filename>
