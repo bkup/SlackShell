@@ -81,7 +81,9 @@ Downloads the specified file to disk and stores it at optional path paramter loc
 #### upload \<local filename>
 Uploads the local file to Slack and shares it with the channel that is being used.
 
-#### runjob
+#### runjob \<command>
+Runs the specified command in a new PowerShell process.
+
 
 ## Acknowledgments
 Inspiration for working with the Slack API in PowerShell is credited to Warren Frame. His repo was a great resource to get started: https://github.com/RamblingCookieMonster/PSSlack
