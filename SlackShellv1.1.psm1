@@ -3,7 +3,7 @@
 <#
 Author: Brent Kennedy; @bk_up
 First Published: 5/1/17
-Last Updated: 5/17/18
+Last Updated: 5/31/18
 #>
     
 
@@ -178,11 +178,11 @@ Last Updated: 5/17/18
         [Parameter(Mandatory=$true)][string]$cmd
         )
 
-        $full = "powershell.exe -c " + $cmd
+        $full = "powershell.exe -c $cmd"
         $Sb = [scriptblock]::Create($full)
 
         $output = Start-Job -ScriptBlock $sb | Wait-Job | Receive-Job
-        return $output
+        return $output | Out-String
     }
 
     function Import-File {
