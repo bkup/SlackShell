@@ -59,6 +59,8 @@ Import-Module ./SlackShell.psm1
 
 Start-Shell -Token "xoxp-175828824580-175707545555-176600001223-826315a84e533c482bb7e20e8312fh45k" -Channel "ABC123456" -Sleep 5
 
+Join the same Slack channel as a different user than what was used to create the token. Anything written into the channel as the different user will get executed on the host under the same local user context that was used to start the script. Alternatively, "runjob" can be used to execute commands in a newly spawned PowerShell process.
+
 ## Reserved Shell Commands (in the Slack channel)
 #### exit
 Closes the shell and connection.
